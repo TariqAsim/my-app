@@ -1,15 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import React from "react";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import NavBar from "./Components/Pages/NavBar";
+import Cart from "./Components/Pages/Cart";
+import ReactDOM from "react-dom/client";
+import HomePage from "./Components/Pages/homePage";
+import SignIn from "./Components/Pages/SignIn";
+import Contact from "./Components/Pages/Contact";
+import SignUp from "./Components/Pages/SignUp";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
